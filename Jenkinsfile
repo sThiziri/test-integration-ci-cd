@@ -9,5 +9,10 @@ pipeline{
                 echo 'Welcome to Jenkinsfile'
             }
         }
+        stage('Hey'){
+            steps{
+                echo 'Welcome !'
+            }
+        }
     }
 }
