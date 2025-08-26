@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     stages{
-        stage(''){
+        stage('Welcome message'){
             steps{
                 echo 'Welcome to Jenkinsfile'
             }
